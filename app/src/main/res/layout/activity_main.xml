@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Testing Component of app :" />
+
+    <TextView
+        android:id="@+id/tvTestAppComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right" />
+
+    <TextView
+        android:id="@+id/tvTestModule"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Testing Component of module :" />
+
+    <TextView
+        android:id="@+id/tvTestModuleComponent"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@android:color/darker_gray"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right" />
+
+    <com.lb.module.AModuleView
+        android:id="@+id/amv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
